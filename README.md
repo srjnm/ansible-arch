@@ -20,7 +20,7 @@ sudo chmod 777 ./*.sh
 Terraform -
 
 * Creates control node, 3 managed nodes from a list of names
-* Uploads html file to managed nodes
+* Uploads html file to managed nodes for nginx to serve
 * Creates inventory file for ansible to use
 
 Ansible -
