@@ -17,7 +17,6 @@ sudo chmod 777 ./*.sh
 ```
 
 ## How it works?
----------
 Terraform -
 
 * Creates control node, 3 managed nodes from a list of names
