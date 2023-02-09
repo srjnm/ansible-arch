@@ -1,0 +1,6 @@
+[submodule "ansible"]
+	path = ansible
+	url = https://github.com/srjnm/ansible-ping
+[submodule "tf"]
+	path = tf
+	url = https://github.com/srjnm/tf-docker
