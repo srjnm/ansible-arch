@@ -5,7 +5,7 @@
 git clone --recurse-submodules https://github.com/srjnm/ansible-arch.git
 cd ./ansible-arch/
 sudo chmod 777 ./*.sh
-./run.sh
+sudo ./run.sh
 ```
 
 localhost:3000, localhost:3001, localhost:3002 are mapped to the nginx server of the managed nodes.
@@ -13,7 +13,7 @@ localhost:3000, localhost:3001, localhost:3002 are mapped to the nginx server of
 ### **How to destroy the resources** -
 ```
 sudo chmod 777 ./*.sh
-./destroy.sh
+sudo ./destroy.sh
 ```
 
 ## How it works?
